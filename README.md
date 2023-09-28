@@ -1,8 +1,7 @@
 # OrbitalTracking
 
-This Project is using Arduino MKR VIDOR 4000 and analog circuitry for implementing an Orbital Tracking system on a commercial confocal microscope.
-Pulse counting is implemented within the FPGA in Verilog
-Burst Search algorithm is realised in RT by using an HW Burst Search Block within the FPGA.
+This Project is using Arduino MKR VIDOR 4000 for implementing an Orbital Tracking system on a commercial confocal microscope.
+Pulse counting and Burst Serch is implemented within the FPGA in Verilog.
 Orbital Tracking algorithm is implemented in C++ within the MCU.
 The System is controlled by a Python App.
 
