@@ -1,16 +1,25 @@
 # OrbitalTracking
 
-Require Quartus:
+This Project is using Arduino MKR VIDOR 4000 and analog circuitry for implementing an Orbital Tracking system on a commercial confocal microscope.
+Pulse counting is implemented within the FPGA in Verilog
+Burst Search algorithm is realised in RT by using an HW Burst Search Block within the FPGA.
+Orbital Tracking algorithm is implemented in C++ within the MCU.
+The System is controlled by a Python App.
+
+
+Has been coded with the help of:
+
+Quartus (Verilog):
 https://www.intel.com/content/www/us/en/software-kit/785086/intel-quartus-prime-lite-edition-design-software-version-22-1-2-for-windows.html?
 
-Arduino;
+Arduino IDE (C++);
 https://www.arduino.cc/en/software
 
-Python:
+Spyder (Python):
 https://www.anaconda.com/
 
 
-Arduino Folder should contain
+The Arduino Folder should contain
 -jtag.c
 -jtag.h
 -Arduino Sketch
